@@ -1,5 +1,13 @@
-extern crate communicator;
+enum TrafficLight {
+    Red,
+    Yellow,
+    Green
+}
+
+use TrafficLight::*;
 
 fn main() {
-    communicator::client::connect();
+    let red = Red;
+    let yellow =  Yellow;
+    let green =  Green;
 }
